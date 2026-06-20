@@ -1,0 +1,32 @@
+{
+  "name": "trellis",
+  "version": "1.0.0",
+  "description": "Confidential compliance infrastructure for DeFi built on Zama FHEVM",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia"
+  },
+  "devDependencies": {
+    "@fhevm/hardhat-plugin": "0.4.2",
+    "@fhevm/mock-utils": "0.4.2",
+    "@nomicfoundation/hardhat-chai-matchers": "hh2",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.0",
+    "chai": "^4.4.1",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.11.1",
+    "@openzeppelin/contracts": "^5.6.1",
+    "@zama-fhe/relayer-sdk": "0.4.1",
+    "dotenv": "^16.4.1",
+    "encrypted-types": "^0.0.4",
+    "ethers": "^6.11.1"
+  }
+}

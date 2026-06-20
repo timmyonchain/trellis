@@ -1,0 +1,12 @@
+{
+  "network": "sepolia",
+  "deployedAt": "2026-06-20T15:22:01.341Z",
+  "contracts": {
+    "TrellisToken": "0xdf9fcb3567E9216d13fB7a7ea9D22A759FB43aC8",
+    "KYTOracle": "0x3664Aa022a5d69114B1c20AEea748D2cC70EeC54",
+    "ComplianceRegistry": "0x204a795FE2Bf2A0f6141c9F8D873Fb3A56f87F65",
+    "TrellisVault": "0xDB1Cf2Bb3180138494EF0447756875c969191ADf",
+    "DisputeResolver": "0x038DC63287D250BD4c25884a533332d214f1FE61",
+    "USDC": "0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238"
+  }
+}
